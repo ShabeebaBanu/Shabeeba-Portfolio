@@ -1,0 +1,18 @@
+[
+    
+    { "img": "dev" , "title": "Web Development",  "desc":[
+        "<p> Full Stack web application development combines front-end and back-end creation, focusing on seamless interaction between users and servers. A creative user interface enhances the user experience with visually appealing, responsive designs and intuitive navigation, ensuring applications are both functional and engaging across all devices.</P>"
+
+ ] },
+    { "img": "teach", "title": "ICT Tutorial", "desc": [
+       "English and Tamil Medium ICT classes are offered both physically and online, catering to diverse learning preferences. These classes cover essential syllabus, practicals and question paper discussions for students of all levels and all grades with friendly and interactive manner."
+    ]
+},
+    { "img": "design", "title": "Flyer Design", "desc": [
+        "All types of flyer designs, including business flyers, banners, posters, letterheads, and more, crafted with a focus on creativity and brand alignment. These designs are tailored to capture attention, communicate messages effectively, and leave a lasting impact on the target audience. Whether for marketing, promotions, or corporate communications, each piece is designed with precision and professionalism to elevate your brand's presence fulfilling user requirements."
+    ]
+ },
+    { "img": "audit", "title": "Audit", "desc": [
+       "I provide online auditing and account management services, offering clients accurate financial oversight and streamlined processes. Manage accounts, conduct audits, and deliver detailed reports, allowing clients to focus on their core operations with confidence."
+]}
+]

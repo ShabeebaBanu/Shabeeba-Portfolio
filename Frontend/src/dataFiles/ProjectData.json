@@ -1,0 +1,29 @@
+[
+    {
+        "img":"portfolio",
+        "title": "Portfolio",
+        "desc": "My personal portfolio web application",
+        "link": "https://github.com/ShabeebaBanu/Portfolio-Shabeeba.git",
+        "body": [
+            "My personal portfolio web application is designed with mobile responsiveness and Backend admin page with CRUD functionalities ensuring a seamless experience across all devices. It focuses on providing a user-friendly interface with intuitive navigation, allowing visitors to explore content easily. The application features a visually appealing and charming UI. I have used <b> React Js, SpringBoot and Firebase </b> for development."
+        ]
+    },
+     {
+        "img":"transitgo",
+        "title": "TransitGo",
+        "desc": "Long Distance Bus Transport Management System",
+        "link": "https://github.com/ShabeebaBanu/Project-TransitGo.git",
+        "body": [
+            "This is our second year group project This is an application aiming the long route bus passengers which provide following functionalities <br/> 1. Real time Bus schedule and updates <br/> 2. Report and handling of lost and found announcements <br/> 3. Delay and announcement update and management <br/>4. Package tranfering with traking ability <br/> 5. Role based user Authentication and Authorization and relevant access controls <br/>Following technology were used in developing the web and mobile application <b> React, React Native, Java (Springboot), MySQL. For the UI design we used Figma.</b><br/> In the above project my part of contribution in developing both mobile and web application were:<br/> 1. User Authentication with email and otp verifications module <br/> 2. User Account Management module and Profile Management module <br/>3. Admin Dashboard with control module <br/>4. Role Based Authorization and Access Control<br/> 5. UI Design"
+        ] 
+     },
+     {
+        "img": "chatbot",
+        "title": "Smart Centre Service BotAssistant",
+        "desc": "Custom AI chatbot for an online application",
+        "link": "https://github.com/ShabeebaBanu/CustomAiChatbot.git",
+        "body":[
+            "A custom chatbot integrated into an application which can offer contextual assistance, handle FAQs, provide personalized recommendations, regarding the integrated application. Technologies used <b> React, Gemini AI</b>"
+        ]
+     }
+]
