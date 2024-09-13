@@ -1,0 +1,38 @@
+[
+ {
+     "type" : "Programming Languages", "sub": ["java","C","Python"] 
+ },
+
+ {
+    "type" : "Web Development Technologies" , "sub": ["HTML", "CSS", "JavaScript", "ReactJS"]  
+ },
+
+ {
+    "type" : "Database Management Systems" , "sub": ["MySQL", "MSSQLServer"]
+ },
+
+ {
+    "type" : "Mobile App Development" , "sub" : ["React Native"]
+ },
+
+ {
+    "type" : "Version Control System" , "sub" : ["Git"]
+ },
+
+ {
+    "type" : "API Platform" , "sub" : ["Postman"]
+ },
+
+ {
+    "type" : "Frameworks" , "sub" : ["Spring Boot"]
+ },
+
+ {
+    "type" : "IDEs" , "sub" : ["VS Code", "IntelliJ idea", "Code Blocks"]
+ },
+
+ {
+    "type" : "Other tools" , "sub" : ["Canva", "Figma", "Filmora","MS Products" ]
+ }
+
+]

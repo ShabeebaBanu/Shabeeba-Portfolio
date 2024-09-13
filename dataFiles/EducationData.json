@@ -1,0 +1,39 @@
+[
+    {
+      "img": "uom",
+      "title": "University of Moratuwa | Reading",
+      "description": [
+        "<p><b>BSc(Hons) in Information Technology and Management</b></p>" ,
+        "<p> GPA L1S1 - 4.00 (Dean's List) </br/> GPA L1S2 - 3.89 (Dean's List) <br/> GPA L1S3 - 3.38</p>"
+      ]
+    },
+    {
+      "img": "ca",
+      "title": "Charted Accountants of Sri Lanka | 2021",
+      "description": [
+        "Completed Level 1 and Level 2 including Information Technology module"
+      ]
+    },
+    {
+      "img": "aat",
+      "title": "AAT Sri Lanka | 2020",
+      "description": [
+        "<p><b>Passed Finalist</b> <br/> Diploma in Accounting and Business<br/></p>"
+      ]
+    },
+    {
+      "img": "bcc",
+      "title": "Kg/Mw/ Baduriya Central College - Advance Level | 2020",
+      "description": [
+        "<p><b>English Medium</b><br/> Information Communication Technology - A <br/> Accounting - A <br/> Business Studies - A <br/> <b>Z Score - 2.21</b> <br/> <b>District Rank - 1 (Kegalle)</b> <br/> <b>Island Rank - 99</b></p>"
+      ]
+    },
+    {
+      "img": "bcc",
+      "title": "Kg/Mw/ Baduriya Central College - Ordinary Level | 2017",
+      "description": [
+        "<p><b>English Medium</b> <br/> <b>'A' Pass in:</b> <br/> English | Maths | Science | ICT | Religion | Tamil | History | Sinhala <br/> <b>'B' Pass in:</b> <br/> English Literature</p>"
+      ]
+    }
+  ]
+  
