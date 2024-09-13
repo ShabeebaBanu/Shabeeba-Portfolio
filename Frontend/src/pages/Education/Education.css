@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .education{
+    z-index: 1;
+    padding: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education img{
+    width: 4%;
+    height: 4%;
+    margin-right: 5%;
+}
+
+.education .catagory:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+
+

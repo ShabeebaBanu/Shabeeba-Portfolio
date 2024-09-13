@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .gallery{
+    z-index: 1;
+    width: 100%;
+}
+
+
+.images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+  transform: scale(1.05); 
+}
+
+.imageItem {
+  position: relative;
+  overflow: hidden; 
+}
+
+.imageItem .MuiImageListItemBar-root {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.imageItem:hover .MuiImageListItemBar-root {
+  opacity: 1;
+}
+
+@media (max-width: 650px){
+  .gallery .images{
+    display: block;
+  }
+
+  .gallery .images img{
+    margin-bottom: 4%;
+  }
+}
+

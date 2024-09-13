@@ -1,0 +1,185 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: rgb(255,250,250);
+    z-index: 0; 
+  }
+
+.home{
+    height: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-areas: "left right";
+    background: white;
+    z-index: 1;
+}
+
+.left {
+    grid-area: left;
+    position: relative;
+    z-index: 1;
+  }
+  
+.left img {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.home .right{
+    grid-area: right;
+    z-index: 1;
+    display: flex;
+    align-items:center;
+    padding-left: 6%;
+}
+
+.helloworld{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.home .myname{
+  font-family:monospace;
+  justify-content: left;
+  font-size: 50px;
+  color:#9e7984 ;
+}
+
+.sm {
+  padding-top: 2%;
+  display: flex;
+  gap: 10px; /* Adds space between the buttons */
+}
+
+.icon {
+  color: #B9908E;
+  background-color: #f0f0f0; /* Light grey background */
+  border: 1px solid #ccc; /* Light grey border */
+  padding: 8px; /* Padding around the icon */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.icon:hover {
+  color: black;
+  background-color: #e0e0e0; /* Slightly darker grey on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.icon:active {
+  color: black;
+  background-color: #d0d0d0; /* Darker grey on click */
+  transform: translateY(0); /* Reset lift on click */
+}
+
+.icon svg {
+  font-size: 24px; /* Size of the icon */
+  color: #555; /* Icon color */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.home .desc div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size: 25px;
+  color:#4d4c4b ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.home .desc div:first-of-type {  
+  animation: showup 4s infinite;
+}
+
+.home .desc div:last-of-type {
+  width:0px;
+  animation: reveal 4s infinite;
+}
+
+.home .desc div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 4s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+@media (max-width: 950px){
+.home{
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-areas: "right";
+}
+
+.left {
+  display: none; 
+}
+
+.helloworld{
+  font-size: 8px;
+}
+
+.home .myname{ 
+  font-size: 25px;
+}
+
+.home .desc div{
+  animation-play-state: paused !important;
+}
+
+}
+
+@media (max-width: 1160px){
+  .home .myname{ 
+    font-size: 35px;
+  }
+
+  .home .desc div{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 440px){
+  .helloworld{
+    font-size: 1px;
+  }
+  
+  .home .myname{
+    font-size: 20px;
+  } 
+
+  .home .desc div {
+    animation: none;
+  }
+}
+  

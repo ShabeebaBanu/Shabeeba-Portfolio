@@ -1,0 +1,84 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.projects {
+  z-index: 1;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  column-gap: 20px;
+  overflow-y: auto;
+  scrollbar-color: #f5e4d244 ;
+}
+
+.projects .card {
+  width: 300px;
+  height: 400px;
+  display: grid;
+  padding: 1%;
+  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-areas:
+    "card-media"
+    "card-content"
+    "card-actions";
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  background-color: #f5e4d244;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-media {
+  grid-area: card-media;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-media image{
+  width: 200px;
+  height: 300px;
+}
+
+.card .card-content {
+  grid-area: card-content;
+  display: block;
+  justify-content: center; 
+  align-items:flex-start; 
+}
+
+.card-content .card-title {
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-content .card-desc {
+  overflow: hidden;
+  text-align: left;
+}
+
+.card .card-actions {
+  grid-area: card-actions;
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center; /* Ensures the button is vertically aligned */
+}
+
+@media (max-width: 630px){
+  .projects{
+      display:block;
+      padding: 5%;
+  }
+
+  .projects .card{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
